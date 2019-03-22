@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Profile majorVersion="1" minorVersion="4" product="ATEM 2 M/E Production Studio 4K">
+    <MixEffectBlocks>
+        <MixEffectBlock index="0">
+            <Keys/>
+        </MixEffectBlock>
+        <MixEffectBlock index="1">
+            <Keys/>
+        </MixEffectBlock>
+    </MixEffectBlocks>
+    <DownstreamKeys/>
+    <ColorGenerators/>
+    <MediaPlayers/>
+    <MacroPool>
+        <Macro index="0" name="Beamer Black" description="">
+            <Op id="AuxiliaryInput" auxiliaryIndex="0" input="Black"/>
+        </Macro>
+        <Macro index="1" name="Beamer Signage" description="">
+            <Op id="AuxiliaryInput" auxiliaryIndex="0" input="Camera1"/>
+        </Macro>
+        <Macro index="2" name="Beamer Speaker" description="">
+            <Op id="AuxiliaryInput" auxiliaryIndex="0" input="Camera5"/>
+        </Macro>
+        <Macro index="3" name="Beamer Cam1" description="">
+            <Op id="AuxiliaryInput" auxiliaryIndex="0" input="Camera2"/>
+        </Macro>
+        <Macro index="4" name="Beamer Cam2" description="">
+            <Op id="AuxiliaryInput" auxiliaryIndex="0" input="Camera3"/>
+        </Macro>
+        <Macro index="5" name="Beamer Cam3" description="">
+            <Op id="AuxiliaryInput" auxiliaryIndex="0" input="Camera4"/>
+        </Macro>
+        <Macro index="6" name="Beamer MP1" description="">
+            <Op id="AuxiliaryInput" auxiliaryIndex="0" input="MediaPlayer1"/>
+        </Macro>
+        <Macro index="7" name="Folien/Cam1" description="">
+            <Op id="ProgramInput" mixEffectBlockIndex="0" input="SuperSource"/>
+            <Op id="SuperSourceBoxEnable" boxIndex="0" enable="True"/>
+            <Op id="SuperSourceBoxMaskLeft" boxIndex="0" left="0"/>
+            <Op id="SuperSourceBoxMaskTop" boxIndex="0" top="0"/>
+            <Op id="SuperSourceBoxMaskRight" boxIndex="0" right="0"/>
+            <Op id="SuperSourceBoxMaskBottom" boxIndex="0" bottom="0"/>
+            <Op id="SuperSourceBoxEnable" boxIndex="1" enable="True"/>
+            <Op id="SuperSourceBoxEnable" boxIndex="2" enable="False"/>
+            <Op id="SuperSourceBoxXPosition" boxIndex="2" xPosition="0"/>
+            <Op id="SuperSourceBoxYPosition" boxIndex="2" yPosition="0"/>
+            <Op id="SuperSourceBoxSize" boxIndex="2" size="1"/>
+            <Op id="SuperSourceBoxMaskEnable" boxIndex="2" enable="False"/>
+            <Op id="SuperSourceBoxMaskLeft" boxIndex="2" left="0"/>
+            <Op id="SuperSourceBoxMaskTop" boxIndex="2" top="0"/>
+            <Op id="SuperSourceBoxMaskRight" boxIndex="2" right="0"/>
+            <Op id="SuperSourceBoxMaskBottom" boxIndex="2" bottom="0"/>
+            <Op id="SuperSourceBoxEnable" boxIndex="3" enable="False"/>
+            <Op id="SuperSourceBoxXPosition" boxIndex="3" xPosition="0"/>
+            <Op id="SuperSourceBoxYPosition" boxIndex="3" yPosition="0"/>
+            <Op id="SuperSourceBoxSize" boxIndex="3" size="1"/>
+            <Op id="SuperSourceBoxMaskEnable" boxIndex="3" enable="False"/>
+            <Op id="SuperSourceBoxMaskLeft" boxIndex="3" left="0"/>
+            <Op id="SuperSourceBoxMaskTop" boxIndex="3" top="0"/>
+            <Op id="SuperSourceBoxMaskRight" boxIndex="3" right="0"/>
+            <Op id="SuperSourceBoxMaskBottom" boxIndex="3" bottom="0"/>
+            <Op id="SuperSourceBoxMaskEnable" boxIndex="0" enable="False"/>
+            <Op id="SuperSourceBoxInput" boxIndex="0" input="Camera5"/>
+            <Op id="SuperSourceBoxInput" boxIndex="1" input="Camera2"/>
+            <Op id="SuperSourceBoxSize" boxIndex="1" size="0.399994"/>
+            <Op id="SuperSourceBoxMaskEnable" boxIndex="1" enable="True"/>
+            <Op id="SuperSourceBoxMaskLeft" boxIndex="1" left="5"/>
+            <Op id="SuperSourceBoxMaskTop" boxIndex="1" top="0"/>
+            <Op id="SuperSourceBoxMaskRight" boxIndex="1" right="5"/>
+            <Op id="SuperSourceBoxMaskBottom" boxIndex="1" bottom="0"/>
+            <Op id="SuperSourceBoxSize" boxIndex="0" size="0.690002"/>
+            <Op id="SuperSourceBoxXPosition" boxIndex="0" xPosition="-4.50002"/>
+            <Op id="SuperSourceBoxYPosition" boxIndex="0" yPosition="2.3"/>
+            <Op id="SuperSourceBoxXPosition" boxIndex="1" xPosition="11.2"/>
+            <Op id="SuperSourceBoxYPosition" boxIndex="1" yPosition="-4.8"/>
+        </Macro>
+    </MacroPool>
+    <MacroControl loop="False"/>
+</Profile>
